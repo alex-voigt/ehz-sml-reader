@@ -6,7 +6,7 @@ const Hoek = require('hoek')
 const defaultOptions = {
   port: '/dev/ttyUSB0',
   portOptions: {
-    baudrate: 9600,
+    baudRate: 9600,
     databits: 8,
     stopbits: 1,
     parity: 'none'
